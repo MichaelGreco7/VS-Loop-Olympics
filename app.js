@@ -27,8 +27,15 @@
 
 // ! Write a for loop that prints to the console only even numbers 0 through 100.
 
-for (i = 0; i <= 100; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
+// for (i = 0; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// ! Write a for loop that will push every other fruit to an array.
+var fruit = ['banana', 'orange', 'apple', 'kiwi', 'pear', 'peach'];
+
+for (let i = 0; i < fruit.length; i += 2) {
+  console.log(fruit[i]);
 }
