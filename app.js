@@ -19,8 +19,16 @@
 
 // ! Write a for loop that will push the numbers 0 through 9 to an array.
 
-var numberArray = [];
-for (var i = 0; i <= 9; i++) {
-  numberArray.push(i);
+// var numberArray = [];
+// for (var i = 0; i <= 9; i++) {
+//   numberArray.push(i);
+// }
+// console.log(numberArray);
+
+// ! Write a for loop that prints to the console only even numbers 0 through 100.
+
+for (i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
 }
-console.log(numberArray);
